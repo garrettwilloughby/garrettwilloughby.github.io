@@ -1,4 +1,5 @@
 import React from 'react';
+import resumeData from '../../content/resumeData';
 
 function About() {
     return (
@@ -6,9 +7,7 @@ function About() {
         <div className="text-left">
           <h1 className="font-bold">ABOUT ME</h1>
           <p className="px-5">
-            Hi!, my name is Garrett Willoughby. I am from Hamden, Connecticut. 
-            I am a senior at the University of Connecticut pursuing a Bachelor's of Engineering 
-            in Computer Science and Engineering with a minor in Math.
+            {resumeData.about.data}
           </p>
         </div>
       </div>

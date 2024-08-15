@@ -1,0 +1,26 @@
+.section__Jobs_buttonCompany {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 2px solid #f1f1f1;
+    outline: none;
+    font-family: "Roboto Mono", monospace;
+    font-size: 13px;
+    height: 100px;
+    width: 100%;
+    text-align: left;
+    padding: 0 20px;
+  }
+  
+  .section__Jobs_buttonCompany:hover,
+  .section__Jobs_buttonCompany:focus {
+    background-color: #f1f1f1;
+  }
+  
+  .section__Jobs_buttonCompany:hover,
+  .section__Jobs_buttonCompany:active,
+  .section__Jobs_buttonCompany:focus {
+    color: #000000;
+    outline: 0px;
+  }
+  

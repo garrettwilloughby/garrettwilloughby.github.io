@@ -1,0 +1,16 @@
+.positionrelative {
+    position: relative;
+  }
+    
+  .experience{
+    position: relative;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-left: 1px solid #858585;
+  }
+  
+  .experience:hover {
+    height: 100%;
+    border-left: 4px solid #000000;
+    transition: top 0.3s ease-in-out;
+  }
