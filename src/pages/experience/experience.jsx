@@ -1,18 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function Experience() {
+const Experience = () => {
+  const [selectedExperience, setSelectedExperience] = useState('job1');
+
+  const experiences = {
+    job1: {
+      title: "Software Engineer at Company A",
+      description: "Worked on building scalable web applications...",
+      date: "Date"
+    },
+    job2: {
+      title: "Frontend Developer at Company B",
+      description: "Focused on creating responsive and interactive UIs...",
+      date: "Date"
+    },
+    job3: {
+      title: "Intern at Company C",
+      description: "Assisted with software development and testing...",
+      date: "Date"
+    },
+  };
+
   return (
-    <div className="px-5 d-flex flex-column justify-content-center min-vh-100 border">
-    <div className="text-left">
-      <h1 className="font-bold">HERE'S WHERE I'VE BEEN</h1>
-      <p className="px-5">
-        Hi!, my name is Garrett Willoughby. I am from Hamden, Connecticut. 
-        I am a senior at the University of Connecticut pursuing a Bachelor's of Engineering 
-        in Computer Science and Engineering with a minor in Math.
-      </p>
+    <div className='d-flex min-vh-100'>
+      <div className='border d-flex flex-column'>
+        {Object.keys(experiences).map((key) => (
+          <button key={key} onClick={() => setSelectedExperience(key)}>
+            {experiences[key].title}
+          </button>
+        ))}
+      </div>
+      <div className='border'>
+        <h2>{experiences[selectedExperience].title}</h2>
+        <p>{experiences[selectedExperience].date}</p>
+        <p>{experiences[selectedExperience].description}</p>
+      </div>
     </div>
-  </div>
   );
-}
+};
 
 export default Experience;
