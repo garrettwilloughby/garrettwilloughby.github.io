@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './experience.module.css';
 import resumeData from '../../content/resumeData';
-import VerticalTab from '../../components/vertical-tab';
+import VerticalTab from '../../components/vertical tabs/vertical-tab';
 
 const Experience = () => {
 

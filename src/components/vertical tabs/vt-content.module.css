@@ -1,7 +1,17 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .section__Jobs_styledContent {
     font-family: sans-serif;
     text-align: left;
     color: #000000;
+    animation: fadeIn 1s ease-out; /* Apply fade-in animation */
   }
   
   .section__Jobs_styledContent h4 {

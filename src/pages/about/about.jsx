@@ -9,6 +9,7 @@ function About() {
           <p className="px-5">
             {resumeData.about.data}
           </p>
+          <img src="src/assets/images/me.jpeg" alt="picture of me" />
         </div>
       </div>
     );
