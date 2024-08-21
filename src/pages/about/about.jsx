@@ -1,5 +1,7 @@
 import React from 'react';
 import resumeData from '../../content/resumeData';
+import styles from "./about.module.css"
+import me from '../../assets/images/me.jpeg'; // Import the image
 
 function About() {
     return (
@@ -9,11 +11,10 @@ function About() {
           <p className="px-5">
             {resumeData.about.data}
           </p>
-          <img src="src/assets/images/me.jpeg" alt="picture of me" />
+          <img className={`${styles.picture}`} src={me} alt="picture of me" /> {/* Use the imported image */}
         </div>
       </div>
     );
-  }
-  
+}
 
 export default About;

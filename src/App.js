@@ -3,6 +3,8 @@ import { Experience, Projects, About, Contact, Home } from './pages';
 import './App.css';
 import Header from './components/header/header';
 import Sidebar from './components/sidebar/sidebar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
