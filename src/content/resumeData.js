@@ -2,6 +2,12 @@ let resumeData = {
     about:{
       data: "Hi!, my name is Garrett Willoughby. I am from Hamden, Connecticut. I am a senior at the University of Connecticut pursuing a Bachelor's of Engineering in Computer Science and Engineering with a minor in Math."
     },
+    projects:[
+      { title: 'Card 1', text: 'Some quick example text.' },
+      { title: 'Card 2', text: 'Another example text.' },
+      { title: 'Card 3', text: 'More example text.' },
+      { title: 'Card 4', text: 'Even more example text.' },
+    ],
     jobs: [
       {
         expData: {

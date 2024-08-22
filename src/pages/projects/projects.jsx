@@ -1,10 +1,13 @@
 import React from 'react';
+import CardComponent from '../../components/card/card';
+import resumeData from '../../content/resumeData';
+
 
 function Projects() {
   return (
     <div className="container text-center min-vh-100 align-items-center">
-      <h1>Here's what i've done.</h1>
-      <p>blah blah blah</p>
+      <h1>PROJECTS</h1>
+      <CardComponent cards={resumeData.projects}/>
     </div>
   );
 }

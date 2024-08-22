@@ -1,0 +1,17 @@
+
+
+
+@media only screen and (min-width: 1000px) {
+    /* styles for devices with a minimum screen width of 480px */
+    .card {
+      width: 20rem;
+      height: 200px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+      /* styles for devices with a minimum screen width of 480px */
+      .card {
+        width: 2rem;
+    }
+}
