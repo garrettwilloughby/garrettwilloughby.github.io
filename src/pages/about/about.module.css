@@ -1,4 +1,11 @@
-.picture{
+.picture {
     height: 504px;
     width: 378px;
-}
+    filter: grayscale(100%); /* Makes the image black and white */
+    transition: filter 0.5s ease, transform 0.5s ease; /* Smooth transition for color and pop-out effect */
+  }
+  
+  .picture:hover {
+    filter: grayscale(0%); /* Restores the color on hover */
+    transform: scale(1.1) translate(5px, -5px); /* Makes the image pop out with an offset */
+  }
