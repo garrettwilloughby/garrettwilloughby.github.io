@@ -3,10 +3,9 @@ let resumeData = {
       data: "Hi!, my name is Garrett Willoughby. I am from Hamden, Connecticut. I am a senior at the University of Connecticut pursuing a Bachelor's of Engineering in Computer Science and Engineering with a minor in Math."
     },
     projects:[
-      { title: 'Card 1', text: 'Some quick example text.' },
-      { title: 'Card 2', text: 'Another example text.' },
-      { title: 'Card 3', text: 'More example text.' },
-      { title: 'Card 4', text: 'Even more example text.' },
+      { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django and PostgreSQL' },
+      { title: 'UCONN Course Registration Clone', text: 'Webapp made using Vue and AWS' },
+      { title: 'This website', text: 'Webapp made using React' },
     ],
     jobs: [
       {
@@ -29,7 +28,7 @@ let resumeData = {
           details: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim fringilla dui ac mattis.",
             "Donec in sodales eros. Nulla fermentum, ante in venenatis pellentesque, justo odio viverra lorem, varius posuere erat tortor et magna."
-          ]
+          ]  
         }
       },
       {

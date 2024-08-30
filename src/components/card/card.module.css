@@ -1,5 +1,7 @@
 
-
+.container:hover{
+  color: orange;
+}
 
 @media only screen and (min-width: 1000px) {
     /* styles for devices with a minimum screen width of 480px */
@@ -14,4 +16,19 @@
       .card {
         width: 2rem;
     }
+}
+
+
+.svg {
+  width: 100%; /* Ensure the sidebar takes full width */
+  /* Other styles */
+  height: 20px;
+  width: 20px;
+  transition: transform 1s, color 0.5s; /* Transition for both transform and color */
+}
+
+.svg:hover {
+  color: rgb(229, 103, 0);
+  transform: translateY(-2px); /* Moves the icon up by 5px */
+
 }
