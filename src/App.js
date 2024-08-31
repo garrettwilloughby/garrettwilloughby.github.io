@@ -8,8 +8,13 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // Adjust breakpoint as needed
 
   useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
     const handleScroll = () => {
       if (window.scrollY > 50) {  // Adjust this value as needed
         setIsScrolled(true);
@@ -18,32 +23,37 @@ function App() {
       }
     };
 
+    window.addEventListener('resize', handleResize);
     window.addEventListener('scroll', handleScroll);
+
+    // Cleanup listeners on unmount
     return () => {
+      window.removeEventListener('resize', handleResize);
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   return (
     <div className="app-container d-flex">
-    <Sidebar />
-    <div className="main-content flex-grow-1">
-      <Header isScrolled={isScrolled} />
-      <Home />
-      <div id="about">
-        <About />
-      </div>
-      <div id="experience">
-        <Experience />
-      </div>
-      <div id="projects">
-        <Projects />
-      </div>
-      <div id="contact">
-        <Contact />
+      {!isMobile && <Sidebar />} {/* Sidebar is shown normally for larger screens */}
+      <div className="main-content flex-grow-1">
+        <Header isScrolled={isScrolled} />
+        <Home />
+        <div id="about">
+          <About />
+        </div>
+        <div id="experience">
+          <Experience />
+        </div>
+        <div id="projects">
+          <Projects />
+        </div>
+        <div id="contact">
+          <Contact />
+          {isMobile && <Sidebar />} {/* Sidebar under the Contact section for smaller screens */}
+        </div>
       </div>
     </div>
-  </div>
   );
 }
 

@@ -4,9 +4,13 @@ import styles from './sidebar.module.css';
 
 function Sidebar() {
   return (
-    <div className={`d-flex flex-column justify-content-end align-items-center position-fixed min-vh-100 ${styles.svg}`}>
-        <IconGitHub />
+    <div className={`border mx-3 d-flex flex-column justify-content-end align-items-center min-vh-100 ${styles.sidebar}`}>
+      <p className={`${styles.svg}`} onClick={() => window.open('github.com/garrettwilloughby', '_blank')}>
+        <IconGitHub /> 
+      </p>
+      <p className={`${styles.svg}`} onClick={() => window.open('linkedin.com/in/garrettwilloughby', '_blank')}>
         <IconLinkedin />
+      </p>
     </div>
   );
 }
