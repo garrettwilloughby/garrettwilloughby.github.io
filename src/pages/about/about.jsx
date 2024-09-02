@@ -20,7 +20,7 @@ function About() {
 
   return (
     <FadeInSection>
-      <div className="container px-5 d-flex justify-content-center align-items-center min-vh-100">
+      <div className={`container px-5 d-flex justify-content-center align-items-center min-vh-100`}>
         <div className="row w-75">
           {/* Text Column */}
           <div className="col-lg-6 col-12 d-flex flex-column justify-content-center">
@@ -31,15 +31,15 @@ function About() {
 
            {/* Hardskills */}
            <div className="row w-75 mt-4">
-          <h2 className="font-bold">Languages I Know</h2>
-          <div className="d-none d-lg-flex col-lg-6">
+          <p className="font-bold">Here are some of the languages I've worked with.</p>
+          <div className={`d-none d-lg-flex col-lg-6 fs-8 ${styles.font}`}>
             <ul>
               {firstColumn.map((language, index) => (
                 <li key={index}>{language}</li>
               ))}
             </ul>
           </div>
-          <div className="d-none d-lg-flex col-lg-6">
+          <div className={`d-none d-lg-flex col-lg-6 fs-8 ${styles.font}`}>
             <ul>
               {secondColumn.map((language, index) => (
                 <li key={index}>{language}</li>
@@ -47,7 +47,7 @@ function About() {
             </ul>
           </div>
           {/* Single Column for Mobile */}
-          <div className="d-block d-lg-none col-12">
+          <div className={`d-block d-lg-none col-12 fs-8 ${styles.font}`}>
             <ul>
               {languages.map((language, index) => (
                 <li key={index}>{language}</li>
