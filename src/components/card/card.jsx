@@ -1,6 +1,7 @@
 import React from 'react';
 import { IconGitHub, IconExternal} from '../../assets/icons/index';
 import styles from "./card.module.css"
+import Tag from '../tag/tag';
 
 const CardComponent = ({ cards }) => {
   return (
@@ -16,7 +17,10 @@ const CardComponent = ({ cards }) => {
                 </div>
                 <h5 className="card-title">{card.title}</h5>
                 <p className="card-text">{card.text}</p>
+
+             
               </div>
+              
             </div>
           </div>
         ))}

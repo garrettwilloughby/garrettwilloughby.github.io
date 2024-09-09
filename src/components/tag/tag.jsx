@@ -1,15 +1,10 @@
 import React from 'react';
 import styles from './tag.module.css';
 
-function Tag() {
+function Tag(text) {
   return (
-    <div className={`border mx-3 d-flex flex-column justify-content-end align-items-center min-vh-100 ${styles.sidebar}`}>
-      <p className={`${styles.svg}`} onClick={() => window.open('github.com/garrettwilloughby', '_blank')}>
-        <IconGitHub /> 
-      </p>
-      <p className={`${styles.svg}`} onClick={() => window.open('linkedin.com/in/garrettwilloughby', '_blank')}>
-        <IconLinkedin />
-      </p>
+    <div className={`border mx-3 d-flex flex-column justify-content-end align-items-center p-3 rounded w-50`}>
+      <p>{text}</p>
     </div>
   );
 }
