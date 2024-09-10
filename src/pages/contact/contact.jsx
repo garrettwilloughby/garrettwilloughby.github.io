@@ -12,6 +12,7 @@ function Contact() {
         </p>
         <ContactButton />
       </div>
+      
     </FadeInSection>
   );
 }
