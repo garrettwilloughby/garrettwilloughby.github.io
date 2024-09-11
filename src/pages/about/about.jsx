@@ -21,35 +21,29 @@ function About() {
   return (
     <FadeInSection>
       <div className={`container px-5 d-flex justify-content-center align-items-center min-vh-100`}>
-        <div className="row w-75">
+        <div className="row">
           {/* Text Column */}
           <div className="col-lg-6 col-12 d-flex flex-column justify-content-center">
             <h1 className="font-bold">ABOUT ME</h1>
-            <p className="px-lg-0 px-5">
+            <p className="px-lg-0">
               {resumeData.about.data}
             </p>
 
            {/* Hardskills */}
-           <div className="row w-75 mt-4">
+           <div className="row w-75 mt-1 justify-content-center"> 
+            {/* fix this centering soon! */}
           <p className="font-bold">Here are some of the languages I've worked with.</p>
-          <div className={`d-none d-lg-flex col-lg-6 fs-8 ${styles.font}`}>
+          
+          <div className={`border d-lg-flex col-lg-6 w-50 ${styles.font}`}>
             <ul>
               {firstColumn.map((language, index) => (
                 <li key={index}>{language}</li>
               ))}
             </ul>
           </div>
-          <div className={`d-none d-lg-flex col-lg-6 fs-8 ${styles.font}`}>
+          <div className={`border d-lg-flex col-lg-6 w-50 ${styles.font}`}>
             <ul>
               {secondColumn.map((language, index) => (
-                <li key={index}>{language}</li>
-              ))}
-            </ul>
-          </div>
-          {/* Single Column for Mobile */}
-          <div className={`d-block d-lg-none col-12 fs-8 ${styles.font}`}>
-            <ul>
-              {languages.map((language, index) => (
                 <li key={index}>{language}</li>
               ))}
             </ul>

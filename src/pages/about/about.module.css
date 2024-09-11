@@ -1,5 +1,6 @@
 .font{
   font-family: "Roboto Mono", monospace;
+  font-size: 12px;
 }
 
 .picture {
@@ -12,4 +13,33 @@
   .picture:hover {
     filter: grayscale(0%); /* Restores the color on hover */
     transform: scale(1.1) translate(5px, -5px); /* Makes the image pop out with an offset */
+  }
+
+  @media (max-width: 768px) {
+    /* styles for devices with a minimum screen width of 480px */
+  
+    .p{
+      font-size: 0.5rem; /* Smaller font size for mobile */
+    }
+
+    .li{
+      font-size: 1px; /* Smaller font size for mobile */
+    }
+
+    .ul{
+      font-size: 1px; /* Smaller font size for mobile */
+    }
+
+    .picture {
+      height: 378px;
+      width: 283.5px;
+      filter: grayscale(100%); /* Makes the image black and white */
+      transition: filter 0.5s ease, transform 0.5s ease; /* Smooth transition for color and pop-out effect */
+    }
+
+    .picture:hover {
+      filter: grayscale(0%); /* Restores the color on hover */
+      transform: scale(1.1) translate(5px, -5px); /* Makes the image pop out with an offset */
+    }
+  
   }

@@ -42,19 +42,21 @@ function App() {
         <div id="about">
           <About />
         </div>
-        <div id="experience">
+        {/* <div id="experience">
           <Experience />
         </div>
         <div id="projects">
           <Projects />
-        </div>
-        <div id="contact">
-          <Contact />
-          {isMobile && <Sidebar />} {/* Sidebar under the Contact section for smaller screens */}
-        </div>
+        </div> */}
+        
       </div>
     </div>
   );
 }
 
 export default App;
+
+{/* <div id="contact">
+          <Contact />
+          {isMobile && <Sidebar />}
+        </div> */}
