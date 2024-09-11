@@ -16,6 +16,7 @@ let resumeData = {
           details: [
             "Currently a Teaching Assistant for CSE 2102 - Introduction to Software Engineering",
             "Lead labs where students are assisted in learning technologies such as Git, Docker and Figma",
+            "Aid in teaching concepts such as branching strategies and CI/CD"
           ]
         }
       },
