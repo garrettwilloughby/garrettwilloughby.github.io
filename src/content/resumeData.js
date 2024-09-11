@@ -14,9 +14,9 @@ let resumeData = {
           position: "Introduction to Software Engineering Teaching Assistant",
           period: "August 2024 - Present",
           details: [
-            "Ut lobortis neque sit amet felis aliquam, sit amet placerat leo maximus. Aenean a tempus massa, vel varius leo.",
-            "Sed eu efficitur leo, nec congue elit. Etiam ullamcorper est at pulvinar condimentum.",
-            "Suspendisse potenti. Vestibulum aliquam luctus sem, at feugiat felis. Pellentesque dignissim lorem eu ipsum condimentum varius. "
+            "Currently a Teaching Assistant for CSE 2102 - Introduction to Software Engineering",
+            "Lead labs where students are assisted in learning technologies such as Git, Docker and Figma",
+            "Aid in teaching concepts such as branching strategies and CI/CD"
           ]
         }
       },
@@ -26,8 +26,9 @@ let resumeData = {
           position: "Software Engineer Intern",
           period: "May 2024 - August 2024",
           details: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim fringilla dui ac mattis.",
-            "Donec in sodales eros. Nulla fermentum, ante in venenatis pellentesque, justo odio viverra lorem, varius posuere erat tortor et magna."
+            "Revised .NET API endpoints to facilitate seamless data integration and communication between front-end, back-end as well as data provider.",
+            "Assisted in the development of a responsive and user-friendly front end using Angular, enhancing user interaction and experience.",
+            "Implemented Terraform scripts to automate the provisioning and management of infrastructure, ensuring consistent and reproducible environments."
           ]  
         }
       },
@@ -37,8 +38,9 @@ let resumeData = {
           position: "Software Engineer",
           period: "Nov 2023 - Present",
           details: [
-            "Suspendisse potenti. Vestibulum aliquam luctus sem, at feugiat felis. Pellentesque dignissim lorem eu ipsum condimentum varius. ",
-            "Nam vehicula pretium arcu. Nam venenatis ante et porta pellentesque."
+            "Developing the P3-EX web application using Next.js and Django backend for prescribing exercises to cardiovascular patients.",
+            "Collaborated with healthcare professionals and researchers to implement intuitive user interfaces tailored to industry needs.",
+            "Implemented RESTful APIs to connect the front-end with the Django backend facilitating a smooth exchange of patient data and exercise prescriptions within the application."
           ]
         }
       },
@@ -48,9 +50,9 @@ let resumeData = {
           position: "Intern",
           period: "May 2023 - August 2023",
           details: [
-            "Ut lobortis neque sit amet felis aliquam, sit amet placerat leo maximus. Aenean a tempus massa, vel varius leo.",
-            "Sed eu efficitur leo, nec congue elit. Etiam ullamcorper est at pulvinar condimentum.",
-            "Suspendisse potenti. Vestibulum aliquam luctus sem, at feugiat felis. Pellentesque dignissim lorem eu ipsum condimentum varius. "
+            "Utilized SQL to generate reports by creating queries to provide insights for data driven decision making.",
+            "Supported the implementation of an ERP system and created a training program to help team members navigate the system efficiently.",
+            "Created a Customer Relationship Management (CRM) in Excel using VBA to enhance communication efficiency and tracking."
           ]
         }
       }

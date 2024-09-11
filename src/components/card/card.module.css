@@ -1,6 +1,7 @@
 
-.container:hover{
+.card:hover{
   color: orange;
+  background-color: aqua;
 }
 
 @media only screen and (min-width: 1000px) {
