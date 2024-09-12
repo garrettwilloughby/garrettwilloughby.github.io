@@ -37,14 +37,14 @@ function About() {
           <div className={`border d-lg-flex col-lg-6 w-50 ${styles.font}`}>
             <ul>
               {firstColumn.map((language, index) => (
-                <li key={index}>{language}</li>
+                <li style={{ listStyle: "none"}} key={index}>{language}</li>
               ))}
             </ul>
           </div>
           <div className={`border d-lg-flex col-lg-6 w-50 ${styles.font}`}>
             <ul>
               {secondColumn.map((language, index) => (
-                <li key={index}>{language}</li>
+                <li style={{ listStyle: "none"}} key={index}>{language}</li>
               ))}
             </ul>
           </div>

@@ -1,6 +1,6 @@
 let resumeData = {
     about:{
-      data: "Hi!, my name is Garrett Willoughby. I am from Hamden, Connecticut. I am a senior at the University of Connecticut pursuing a Bachelor's of Engineering in Computer Science and Engineering with a minor in Math."
+      data: "Hi! My name is Garrett Willoughby. I am from Hamden, Connecticut. I am a senior at the University of Connecticut pursuing a Bachelor's of Engineering in Computer Science and Engineering with a minor in Math."
     },
     projects:[
       { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django and PostgreSQL' },

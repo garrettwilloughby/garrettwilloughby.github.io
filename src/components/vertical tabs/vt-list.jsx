@@ -8,7 +8,9 @@ function VTlist(props) {
   };
 
   return (
-    <li key={props.index} style={{ listStyle: "none", textAlign: "left" }}>
+  
+  
+    <li key={props.index} style={{ listStyle: "none", textAlign: "left"}}>
       <button
         className={`${styles.section__Jobs_buttonCompany}`}
         onClick={Clicked}
@@ -21,6 +23,7 @@ function VTlist(props) {
         {props.data.expData.company}
       </button>
     </li>
+  
   );
 }
 
