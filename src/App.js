@@ -48,6 +48,10 @@ function App() {
         <div id="projects">
           <Projects />
         </div>
+
+        <div id="contact">
+          <Contact isMobile={isMobile} />
+        </div>
         
       </div>
     </div>
@@ -56,7 +60,3 @@ function App() {
 
 export default App;
 
-{/* <div id="contact">
-          <Contact />
-          {isMobile && <Sidebar />}
-        </div> */}

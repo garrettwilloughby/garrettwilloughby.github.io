@@ -1,14 +1,32 @@
-
 .svg {
-  width: 100%; /* Ensure the sidebar takes full width */
-  /* Other styles */
+  width: 20px; /* Icon size */
   height: 20px;
-  width: 20px;
-  transition: transform 1s, color 0.5s; /* Transition for both transform and color */
+  transition: transform 0.5s, color 0.5s; /* Transition for both transform and color */
 }
 
 .svg:hover {
-  color: rgb(229, 103, 0);
-  transform: translateY(-2px); /* Moves the icon up by 5px */
+  color: rgb(24, 56, 131);
+  transform: translateY(-5px); /* Moves the icon up by 2px */
+}
 
+.sidebar {
+  /* Default to column layout for larger screens */
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  min-height: 100vh; /* Full height for larger screens */
+  height: auto; /* Allow height to adjust based on content */
+  position: fixed;
+  z-index: 1000; /* Set a high z-index value */
+  
+}
+
+.sidebar::after {
+  content: '';
+  display: block;
+  width: 1px; /* Width of the line */
+  height: 150px; /* Adjust height as needed */
+  background-color: #000000; /* Color of the line */
+  margin-top: 10px; /* Space between the last icon and the line */
 }

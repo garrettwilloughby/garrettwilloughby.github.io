@@ -24,4 +24,25 @@
     outline: 0px;
   }
   
+  /* Default: Horizontal layout for mobile */
+.tabList {
+  display: flex;
+  overflow-x: auto; /* Allows horizontal scrolling on small screens */
+}
+
+.tabListItem {
+  list-style: none;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* Vertical layout for larger screens */
+@media (min-width: 768px) {
+  .tabList {
+    flex-direction: column; /* Vertical layout */
+  }
   
+  .tabListItem {
+    text-align: left;
+  }
+}

@@ -1,0 +1,14 @@
+
+
+.svg {
+    width: 35px; /* Icon size */
+    height: 35px;
+    transition: transform 1s, color 0.5s; /* Transition for both transform and color */
+    padding: 5px;
+    padding-top: 100px;
+  }
+  
+  .svg:hover {
+    color: rgb(24, 56, 131);
+    transform: translateY(-2px); /* Moves the icon up by 2px */
+  }

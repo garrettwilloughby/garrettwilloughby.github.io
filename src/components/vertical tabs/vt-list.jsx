@@ -24,7 +24,10 @@ function VTlist(props) {
       </button>
     </li>
   
+
+      // horizontal tab list for mobile
   );
+
 }
 
 export default VTlist;

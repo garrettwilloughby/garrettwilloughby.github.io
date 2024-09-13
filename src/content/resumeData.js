@@ -1,11 +1,12 @@
 let resumeData = {
     about:{
-      data: "Hi! My name is Garrett Willoughby. I am from Hamden, Connecticut. I am a senior at the University of Connecticut pursuing a Bachelor's of Engineering in Computer Science and Engineering with a minor in Math."
+      data: "Hi! My name is Garrett Willoughby. I am from Hamden, Connecticut. I am a senior at the University of Connecticut pursuing a Bachelor's of Science in Computer Science with a minor in Math."
     },
     projects:[
       { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django and PostgreSQL' },
       { title: 'UCONN Course Registration Clone', text: 'Webapp made using Vue and AWS' },
       { title: 'This website', text: 'Webapp made using React' },
+      { title: 'Scheduler', text: 'C++ Scheduler' },
     ],
     jobs: [
       {

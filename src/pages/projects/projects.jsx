@@ -2,16 +2,17 @@ import React from 'react';
 import CardComponent from '../../components/card/card';
 import resumeData from '../../content/resumeData';
 import FadeInSection from '../../components/fade/fade-in';
+import styles from './projects.module.css'
 
 
 function Projects() {
   return (
     <FadeInSection>
-    <div className="d-flex flex-column justify-content-center align-items-center min-vh-100 border">
-      <div className="w-100">
-        <h1 className="px-5 pb-5 text-left">PROJECTS</h1>
+    <div className="d-flex flex-column justify-content-center align-items-center min-vh-100">
+      <div className="w-75">
+        <h1 className="pb-5 text-left">PROJECTS</h1>
       </div>
-      <div className="w-100 d-flex justify-content-center">
+      <div className="w-75 d-flex justify-content-center">
         <CardComponent cards={resumeData.projects} />
       </div>
     </div>
