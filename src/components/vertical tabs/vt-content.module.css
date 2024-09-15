@@ -17,7 +17,8 @@
   .section__Jobs_styledContent h4 {
     color: #000000;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 600;
+    
   }
   
   .section__Jobs_styledContent h5 {
@@ -35,7 +36,27 @@
   }
   
   .section__Jobs_detail::before {
-    content: "▹";
+    content: "▹   ";
     color: #000000;
   }
+
+  .fancycompany{
+    color: rgb(185, 0, 0);
+    border: solid 1px black;
+    
+  }
   
+
+  @media (max-width: 768px) {
+  .section__Jobs_styledContent h4 {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .section__Jobs_styledContent p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+  }
+}

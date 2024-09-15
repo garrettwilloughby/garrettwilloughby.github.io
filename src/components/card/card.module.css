@@ -1,5 +1,5 @@
 
-.card:hover{
+.container:hover{
   color: orange;
   background-color: aqua;
 }
@@ -30,6 +30,6 @@
 
 .svg:hover {
   color: rgb(229, 103, 0);
-  transform: translateY(-2px); /* Moves the icon up by 5px */
+  /* transform: translateY(-2px);  */
 
 }

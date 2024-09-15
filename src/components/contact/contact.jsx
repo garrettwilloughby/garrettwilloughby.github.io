@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './contact.module.css'
 
 const ContactButton = () => {
   const email = "garrettwilloughby@gmail.com"; // Your email address
@@ -10,17 +11,7 @@ const ContactButton = () => {
         textDecoration: 'none'
       }}
     >
-      <button
-        style={{
-          padding: '10px 20px',
-          backgroundColor: '#007bff',
-          color: '#fff',
-          border: 'none',
-          borderRadius: '5px',
-          cursor: 'pointer',
-          fontSize: '16px'
-        }}
-      >
+      <button className={`${styles.buttoncontact}`}>
         Let's Connect!
       </button>
     </a>

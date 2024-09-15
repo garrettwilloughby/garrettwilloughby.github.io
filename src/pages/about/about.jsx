@@ -24,27 +24,27 @@ function About() {
         <div className="row">
           {/* Text Column */}
           <div className="col-lg-6 col-12 d-flex flex-column justify-content-center">
-            <h1 className="font-bold">ABOUT ME</h1>
-            <p className="px-lg-0">
+            <h1 className={`font-bold ${styles.aboutmetitle}`}>ABOUT ME</h1>
+            <p className={`px-lg-0 ${styles.aboutmetext}`} >
               {resumeData.about.data}
             </p>
 
            {/* Hardskills */}
            <div className="row w-75 mt-1 justify-content-center"> 
             {/* fix this centering soon! */}
-          <p className="font-bold">Here are some of the languages I've worked with.</p>
+          <p className={`${styles.aboutmetext}`}>Here are some of the languages I've worked with.</p>
           
           <div className={`d-lg-flex col-lg-6 w-50 ${styles.font}`}>
             <ul>
               {firstColumn.map((language, index) => (
-                <li style={{ listStyle: "none"}} key={index}>{language}</li>
+                <li className={`${styles.aboutli}`} style={{ listStyle: "none"}} key={index}>{language}</li>
               ))}
             </ul>
           </div>
           <div className={`d-lg-flex col-lg-6 w-50 ${styles.font}`}>
             <ul>
               {secondColumn.map((language, index) => (
-                <li style={{ listStyle: "none"}} key={index}>{language}</li>
+                <li className={`${styles.aboutli}`} style={{ listStyle: "none"}} key={index}>{language}</li>
               ))}
             </ul>
           </div>

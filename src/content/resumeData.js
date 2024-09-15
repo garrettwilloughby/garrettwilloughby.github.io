@@ -1,18 +1,22 @@
 let resumeData = {
     about:{
-      data: "Hi! My name is Garrett Willoughby. I am from Hamden, Connecticut. I am a senior at the University of Connecticut pursuing a Bachelor's of Science in Computer Science with a minor in Math."
+      data: "Hi! My name is Garrett Willoughby. \
+      I'm from Hamden, Connecticut. \
+      I'm a senior at the University of Connecticut pursuing a Bachelor's of Science in Computer Science with a minor in Math. \
+      This past summer I was a Software Engineer Intern at Hubbell. \
+      In my freetime I love reading, lifting, and building things."
     },
     projects:[
-      { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django and PostgreSQL' },
-      { title: 'UCONN Course Registration Clone', text: 'Webapp made using Vue and AWS' },
-      { title: 'This website', text: 'Webapp made using React' },
-      { title: 'Scheduler', text: 'C++ Scheduler' },
+      { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django and PostgreSQL', tech: ["React", "Django", "PostgreSQL"], link: "https://github.com/garrettwilloughby/Learn-Chinese.git"},
+      { title: 'UCONN Course Registration Clone', text: 'Webapp made using Vue and AWS', tech: ["Vue", "AWS"], link: "https://github.com/garrettwilloughby/cse2102.git"},
+      { title: 'This website', text: 'Webapp made using React', tech: ["React"], link: "https://github.com/garrettwilloughby/garrettwilloughby.github.io.git" },
+      { title: 'Scheduler', text: 'C++ Scheduler', tech: ["C++"], link: "https://github.com/garrettwilloughby/Interval-Scheduler.git" },
     ],
     jobs: [
       {
         expData: {
-          company: "UCONN College of Engineering",
-          position: "Introduction to Software Engineering Teaching Assistant",
+          company: "UCONN",
+          position: "Teaching Assistant",
           period: "August 2024 - Present",
           details: [
             "Currently a Teaching Assistant for CSE 2102 - Introduction to Software Engineering",

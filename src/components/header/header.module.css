@@ -1,28 +1,36 @@
 .navLink {
-    color: #000000;
-    text-decoration: none;
-    margin-right: 15px;
-    position: relative; /* Ensure the pseudo-element is positioned relative to the link */
-    overflow: hidden; /* Hide the pseudo-element overflow */
-  }
-  
-  .navLink::after {
-    content: ''; /* Create a pseudo-element */
+  color: #000000;
+  text-decoration: none;
+  margin-right: 15px;
+  position: relative; /* Ensure the pseudo-element is positioned relative to the link */
+  overflow: hidden; /* Hide the pseudo-element overflow */
+  font-weight: 500;
+  transition: color 0.5s ease; /* Add transition for the color */
+}
+
+.navLink:hover {
+  color: rgb(190, 81, 3);
+}
+
+
+
+  /* .navLink::after {
+    content: ''; 
     display: block;
     position: absolute;
     left: 0;
-    bottom: 0;
-    height: 1px; /* Height of the underline */
-    width: 100%; /* Full width of the pseudo-element */
-    background-color: #000000; /* Color of the underline */
-    transform: scaleX(0); /* Initially scale to 0 (dot) */
-    transform-origin: left; /* Scale from the left edge */
-    transition: transform 0.3s ease; /* Transition for the scale effect */
+    bottom: 3;
+    height: 1px; 
+    width: 100%; 
+    background-color: #000000; 
+    transform: scaleX(0); 
+    transform-origin: left; 
+    transition: transform 0.3s ease; 
   }
   
   .navLink:hover::after {
-    transform: scaleX(1); /* Expand the underline */
-  }
+    transform: scaleX(1); 
+  } */
 
   .sticky{
     position: fixed;

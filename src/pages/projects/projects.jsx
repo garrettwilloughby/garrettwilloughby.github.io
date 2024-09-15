@@ -10,7 +10,7 @@ function Projects() {
     <FadeInSection>
     <div className="d-flex flex-column justify-content-center align-items-center min-vh-100">
       <div className="w-75">
-        <h1 className="pb-5 text-left">PROJECTS</h1>
+        <h1 className={`pb-5 text-left ${styles.projectstitle}`}>PROJECTS</h1>
       </div>
       <div className="w-75 d-flex justify-content-center">
         <CardComponent cards={resumeData.projects} />

@@ -10,7 +10,7 @@ function Header({ isScrolled }) {
   };
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-light bg-light width-100`}
+    <nav className={`navbar navbar-expand-lg navbar-light width-100`}
     style={{ position: 'fixed', top: '0', left: '0', width: '100%', zIndex: '1000' }}>
       <a className="navbar-brand d-lg-none px-3 text-bold" href="#"><Resume /></a>
       <button 

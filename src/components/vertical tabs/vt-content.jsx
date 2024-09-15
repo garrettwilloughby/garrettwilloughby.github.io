@@ -14,7 +14,10 @@ function VTcontent(props) {
           : { display: "none" }
       }
     >
-      <h4>{data.position}</h4>
+      <div className="d-flex flex-wrap align-items-center">
+        <h4>{data.position}</h4>
+        <h4 className="fancycompany ms-2">@ {data.company}</h4>
+      </div>
       <h5>{data.period}</h5>
       {data.details.map(detail => (
         <p className={`${styles.section__Jobs_detail}`}>{detail}</p>

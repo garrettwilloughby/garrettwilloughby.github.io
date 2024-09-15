@@ -11,7 +11,7 @@ const Experience = () => {
     <FadeInSection>
     <div className="px-5 d-flex justify-content-center align-items-center min-vh-100">
       <div className='max-width-25'>
-      <h1 className="px-m font-bold text-left text-xl">EXPERIENCE</h1>
+      <h1 className={`px-m font-bold text-left text-xl ${styles.experiencetitle}`}>EXPERIENCE</h1>
       <VerticalTab data={resumeData.jobs} />
       </div>
     </div>
