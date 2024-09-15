@@ -43,16 +43,16 @@ function Contact() {
 
         {isMobile && 
         <div className='d-flex'>
-          <div className={`${styles.svg}`}>
-            <IconGitHub />
-          </div>
-
-           <div className={`${styles.svg}`}>
+          <p className={`${styles.svg}`} onClick={() => window.open('https://github.com/garrettwilloughby', '_blank')}>
+            <IconGitHub /> 
+          </p>
+          <p className={`${styles.svg}`} onClick={() => window.open('https://www.linkedin.com/in/garrettwilloughby', '_blank')}>
             <IconLinkedin />
-            </div>
-          <div className={`${styles.svg}`}>
+          </p>
+
+          <p className={`${styles.svg}`} onClick={() => window.open('https://www.goodreads.com/user/show/181021564-garrett-willoughby', '_blank')}>
             <IconGoodReads />
-          </div>
+          </p>
         </div>
         }
       </div>

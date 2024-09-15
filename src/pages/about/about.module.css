@@ -31,8 +31,8 @@
     }
 
     .picture {
-      height: 378px;
-      width: 283.5px;
+      height: 340.2px;
+      width: 255.15px;
       filter: grayscale(100%); /* Makes the image black and white */
       transition: filter 0.5s ease, transform 0.5s ease; /* Smooth transition for color and pop-out effect */
     }

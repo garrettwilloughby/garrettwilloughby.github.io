@@ -48,7 +48,6 @@ function App() {
         <div id="projects">
           <Projects />
         </div>
-
         <div id="contact">
           <Contact isMobile={isMobile} />
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './home.module.css';
 import FadeInSection from '../../components/fade/fade-in';
+import Resume from '../../components/resume button/fancy-resume-button';
 
 
 function Home() {
