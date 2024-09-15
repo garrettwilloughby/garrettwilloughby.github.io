@@ -17,7 +17,7 @@ const CardComponent = ({ cards }) => {
                   </p>
                 </div>
                 <h5 className="card-title">{card.title}</h5>
-                <p className="card-text">{card.text}</p>
+                <p className={`${styles.cardtext}`}>{card.text}</p>
 
                 <div className='d-flex flex-direction-row align-items-end mt-auto'>
                   {card.tech.map((techItem, techIndex) => (

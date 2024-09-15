@@ -10,15 +10,20 @@
     50% { border-color: #000000; }
   }
 
+  .largeText {
+    font-size: 8rem; /* Adjust as needed */
+    font-weight: bold;
+  }
+
   @media only screen and (min-width: 1000px) {
     /* styles for devices with a minimum screen width of 480px */
     .typingContainer h1{
       display: inline-block; /* Ensure the container is inline */
       overflow: hidden; /* Hide the overflowing text */
       white-space: nowrap; /* Prevent text wrapping */
-      border-right: 2px solid #000000; /* Create a cursor effect */
-      animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end infinite; /* Combine typing and caret blink animations */
-      font-size: 100px;
+      /* border-right: 2px solid #000000; */
+      /* animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end infinite;  */
+      
     }
     }
 
@@ -28,10 +33,9 @@
         display: inline-block; /* Ensure the container is inline */
         overflow: hidden; /* Hide the overflowing text */
         white-space: nowrap; /* Prevent text wrapping */
-        border-right: 2px solid #000000; /* Create a cursor effect */
-        animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end infinite; /* Combine typing and caret blink animations */
+        /* border-right: 2px solid #000000;  */
+        /* animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end infinite;  */
         font-size: 50px;
-        font-size: 1.5rem; /* Smaller font size for mobile */
       }
 
       .typingContainer p{

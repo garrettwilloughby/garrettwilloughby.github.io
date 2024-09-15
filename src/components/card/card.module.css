@@ -17,6 +17,10 @@
       .card {
         width: 2rem;
     }
+
+    .cardtext{
+      font-size: 12px;
+    }
 }
 
 
@@ -33,3 +37,4 @@
   /* transform: translateY(-2px);  */
 
 }
+

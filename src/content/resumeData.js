@@ -9,7 +9,7 @@ let resumeData = {
     projects:[
       { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django and PostgreSQL', tech: ["React", "Django", "PostgreSQL"], link: "https://github.com/garrettwilloughby/Learn-Chinese.git"},
       { title: 'UCONN Course Registration Clone', text: 'Webapp made using Vue and AWS', tech: ["Vue", "AWS"], link: "https://github.com/garrettwilloughby/cse2102.git"},
-      { title: 'This website', text: 'Webapp made using React', tech: ["React"], link: "https://github.com/garrettwilloughby/garrettwilloughby.github.io.git" },
+      { title: 'This Website', text: 'Portfolio made using React', tech: ["React"], link: "https://github.com/garrettwilloughby/garrettwilloughby.github.io.git" },
       { title: 'Scheduler', text: 'C++ Scheduler', tech: ["C++"], link: "https://github.com/garrettwilloughby/Interval-Scheduler.git" },
     ],
     jobs: [
