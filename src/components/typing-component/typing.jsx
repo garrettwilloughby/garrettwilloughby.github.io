@@ -5,7 +5,7 @@ import styles from "./typing.module.css"
 const TypingEffectComponent = () => {
     return (
         <TypingEffect
-            text={['Welcome to my website!', 'Check out resume!', 'Send me an email!']}
+            text={['Welcome to my website!', 'Check out my resume!', 'Send me an email!']}
             speed={100}        // Speed of typing
             eraseSpeed={50}    // Speed of erasing
             typingDelay={1000} // Delay before starting to type

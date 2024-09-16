@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from "./fancy-resume-button.module.css"
 
 function Resume() {
     const onButtonClick = () => {
@@ -13,9 +14,9 @@ function Resume() {
     };
   return (
     <div>
-      <div className="button-resume" onClick={onButtonClick}>
+      <div className={`${styles.buttonresume}`} onClick={onButtonClick}>
         <a style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer', zIndex: 1000}}>
-          Resume
+          My Resume!
         </a>
       </div>
     </div>

@@ -10,7 +10,7 @@ function Header({ isScrolled }) {
   };
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-light width-100`}
+    <nav className={`d-flex navbar navbar-expand-lg navbar-light width-100`}
     style={{ position: 'fixed', top: '0', left: '0', width: '100%', zIndex: '1000' }}>
       <a className="navbar-brand d-lg-none px-3 text-bold" href="#"><Resume /></a>
       <button 
@@ -24,7 +24,7 @@ function Header({ isScrolled }) {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className={`collapse navbar-collapse justify-content-end px-3 ${isOpen ? 'show' : ''}`} id="navbarNavAltMarkup">
-        <div className="navbar-nav">
+        <div className="navbar-nav align-items-center">
           <a className={`"nav-item nav-link ${styles.navLink}`} href="#about">About</a>
           <a className={`"nav-item nav-link ${styles.navLink}`} href="#experience">Experience</a>
           <a className={`"nav-item nav-link ${styles.navLink}`} href="#projects">Projects</a>

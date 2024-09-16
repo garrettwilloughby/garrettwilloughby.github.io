@@ -15,6 +15,10 @@
     font-weight: bold;
   }
 
+  .typingContainer{
+    position: fixed;
+  }
+
   @media only screen and (min-width: 1000px) {
     /* styles for devices with a minimum screen width of 480px */
     .typingContainer h1{
@@ -42,3 +46,5 @@
         font-size: 1.0rem; /* Smaller font size for mobile */
       }
       }
+
+      

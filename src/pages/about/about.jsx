@@ -8,9 +8,10 @@ function About() {
   // Example list of languages you know
   const languages = [
     'JavaScript', 'Python', 
-    'Java', 'C#', 
+    'Java', 'Terraform', 
     'C++', 'TypeScript', 
-    'HTML', 'CSS'
+    'HTML', 'CSS', 
+    'React', 'Azure'
   ];
 
   // Split the languages into two columns
@@ -26,13 +27,16 @@ function About() {
           <div className="col-lg-6 col-12 d-flex flex-column justify-content-center">
             <h1 className={`font-bold ${styles.aboutmetitle}`}>ABOUT ME</h1>
             <p className={`px-lg-0 ${styles.aboutmetext}`} >
-              {resumeData.about.data}
+              {resumeData.about.intro}
+              <br></br>
+              <br></br>
+              {resumeData.about.hobbies}
             </p>
 
            {/* Hardskills */}
-           <div className="row w-75 mt-1 justify-content-center"> 
+           <div className="row w-100 mt-1 justify-content-center"> 
             {/* fix this centering soon! */}
-          <p className={`${styles.aboutmetext}`}>Here are some of the languages I've worked with.</p>
+          <p className={`${styles.aboutmetext}`}>Here are some of the languages and technology I've worked with recently:</p>
           
           <div className={`d-lg-flex col-lg-6 w-50 ${styles.font}`}>
             <ul>

@@ -1,10 +1,10 @@
 let resumeData = {
     about:{
-      data: "Hi! My name is Garrett Willoughby. \
+      intro: "Hi! My name is Garrett Willoughby. \
       I'm from Hamden, Connecticut. \
       I'm a senior at the University of Connecticut pursuing a Bachelor's of Science in Computer Science with a minor in Math. \
-      This past summer I was a Software Engineer Intern at Hubbell. \
-      In my freetime I love reading, lifting, and building things."
+      This past summer I was a Software Engineer Intern at Hubbell! I've also worked at Atlantic Fabricating Company and have held a couple software related jobs at UCONN.",
+      hobbies: "I'm a huge Miami Dolphins fan. In my freetime I love reading, lifting, and building things."
     },
     projects:[
       { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django and PostgreSQL', tech: ["React", "Django", "PostgreSQL"], link: "https://github.com/garrettwilloughby/Learn-Chinese.git"},
