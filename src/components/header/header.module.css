@@ -5,11 +5,12 @@
   position: relative; /* Ensure the pseudo-element is positioned relative to the link */
   overflow: hidden; /* Hide the pseudo-element overflow */
   font-weight: 500;
-  transition: color 0.5s ease; /* Add transition for the color */
+  transition: color 0.5s ease, transform 0.5s ease; /* Add transition for the color and transform */
 }
 
 .navLink:hover {
-  color: rgb(190, 81, 3);
+  color: rgb(24, 56, 131);
+  transform: scale(1.05); /* Smooth scaling on hover */
 }
 
 

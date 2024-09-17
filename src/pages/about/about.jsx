@@ -36,7 +36,7 @@ function About() {
            {/* Hardskills */}
            <div className="row w-100 mt-1 justify-content-center"> 
             {/* fix this centering soon! */}
-          <p className={`${styles.aboutmetext}`}>Here are some of the languages and technology I've worked with recently:</p>
+          <p className={`${styles.aboutmetext}`}>Here are some of the languages and technologies I've worked with recently:</p>
           
           <div className={`d-lg-flex col-lg-6 w-50 ${styles.font}`}>
             <ul>
