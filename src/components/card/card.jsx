@@ -19,7 +19,7 @@ const CardComponent = ({ cards }) => {
                 <h5 className="card-title">{card.title}</h5>
                 <p className={`${styles.cardtext}`}>{card.text}</p>
 
-                <div className='d-flex flex-direction-row align-items-end mt-auto'>
+                <div className='d-flex flex-direction-row align-items-end mt-auto wrap'>
                   {card.tech.map((techItem, techIndex) => (
                     <Tag key={techIndex} text={techItem} />
                   ))}

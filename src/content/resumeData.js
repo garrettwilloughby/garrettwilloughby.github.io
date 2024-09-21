@@ -3,11 +3,11 @@ let resumeData = {
       intro: "Hi! My name is Garrett Willoughby. \
       I'm from Hamden, Connecticut. \
       I'm a senior at the University of Connecticut pursuing a Bachelor's of Science in Computer Science with a minor in Math. \
-      This past summer I was a Software Engineer Intern at Hubbell! I've also worked at Atlantic Fabricating Company and have held a couple software related jobs at UCONN.",
-      hobbies: "I'm a huge Miami Dolphins fan. In my freetime I love reading, lifting, and building things."
+      This past summer I was a Software Engineer Intern at Hubbell! I've also worked at Atlantic Fabricating Company and have held a couple software related jobs at UConn.",
+      hobbies: "At UConn, I'm apart of the Cantonese and Vietnamese student associations, the fishing and outing clubs, and play intramural volleyball. I'm also a huge Miami Dolphins fan and like watching the Vancouver Canucks as well. In my freetime I love reading, thrifting, lifting, and building things."
     },
     projects:[
-      { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django and PostgreSQL', tech: ["React", "Django", "PostgreSQL"], link: "https://github.com/garrettwilloughby/Learn-Chinese.git"},
+      { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django, PostgreSQL and TensorFlow', tech: ["React", "Django", "PostgreSQL", "TensorFlow"], link: "https://github.com/garrettwilloughby/Learn-Chinese.git"},
       { title: 'UCONN Course Registration Clone', text: 'Webapp made using Vue and AWS', tech: ["Vue", "AWS"], link: "https://github.com/garrettwilloughby/cse2102.git"},
       { title: 'This Website', text: 'Portfolio made using React', tech: ["React"], link: "https://github.com/garrettwilloughby/garrettwilloughby.github.io.git" },
       { title: 'Scheduler', text: 'C++ Scheduler', tech: ["C++"], link: "https://github.com/garrettwilloughby/Interval-Scheduler.git" },
@@ -21,7 +21,7 @@ let resumeData = {
           details: [
             "Currently a Teaching Assistant for CSE 2102 - Introduction to Software Engineering",
             "Lead labs where students are assisted in learning technologies such as Git, Docker and Figma",
-            "Aid in teaching concepts such as branching strategies and CI/CD"
+            "Guiding the learning of software design, branching strategies, CI/CD, cloud computing, and AGILE methodologies for labs of 20+ students to reinforce good software engineering practices."
           ]
         }
       },
@@ -31,8 +31,8 @@ let resumeData = {
           position: "Software Engineer Intern",
           period: "May 2024 - August 2024",
           details: [
-            "Revised .NET API endpoints to facilitate seamless data integration and communication between front-end, back-end as well as data provider.",
-            "Assisted in the development of a responsive and user-friendly front end using Angular, enhancing user interaction and experience.",
+            "Enhanced .NET API endpoints to facilitate seamless data integration between the front-end, back-end as well as data provider.",
+            "Developed a responsive and user-friendly front-end using Angular, optimizing user experience and highlighting crucial data points.",
             "Implemented Terraform scripts to automate the provisioning and management of infrastructure, ensuring consistent and reproducible environments."
           ]  
         }
@@ -43,7 +43,7 @@ let resumeData = {
           position: "Software Engineer",
           period: "Nov 2023 - Present",
           details: [
-            "Developing the P3-EX web application using Next.js and Django backend for prescribing exercises to cardiovascular patients.",
+            "Currently developing the P3-EX web application using Next.js and a Django back-end for prescribing exercises to cardiovascular patients.",
             "Collaborated with healthcare professionals and researchers to implement intuitive user interfaces tailored to industry needs.",
             "Implemented RESTful APIs to connect the front-end with the Django backend facilitating a smooth exchange of patient data and exercise prescriptions within the application."
           ]

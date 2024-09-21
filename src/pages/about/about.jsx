@@ -7,11 +7,9 @@ import FadeInSection from '../../components/fade/fade-in';
 function About() {
   // Example list of languages you know
   const languages = [
-    'JavaScript', 'Python', 
-    'Java', 'Terraform', 
-    'C++', 'TypeScript', 
-    'HTML', 'CSS', 
-    'React', 'Azure'
+    'JavaScript', 'Python', 'Terraform', 'C', 
+    'C++', 'SQL', 
+    'React', 'Angular'
   ];
 
   // Split the languages into two columns
