@@ -7,7 +7,7 @@ let resumeData = {
       hobbies: "At UConn, I'm apart of the Cantonese and Vietnamese student associations, the fishing and outing clubs, and play intramural volleyball. I'm also a huge Miami Dolphins fan and like watching the Vancouver Canucks as well. In my freetime I love reading, thrifting, lifting, and building things."
     },
     projects:[
-      { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django, PostgreSQL and TensorFlow', tech: ["React", "Django", "PostgreSQL", "TensorFlow"], link: "https://github.com/garrettwilloughby/Learn-Chinese.git"},
+      { title: 'Learn Chinese!', text: 'Flashcard App made using React, Django, PostgreSQL and TensorFlow', tech: ["React", "Django", "PostgreSQL"], link: "https://github.com/garrettwilloughby/Learn-Chinese.git"},
       { title: 'UCONN Course Registration Clone', text: 'Webapp made using Vue and AWS', tech: ["Vue", "AWS"], link: "https://github.com/garrettwilloughby/cse2102.git"},
       { title: 'This Website', text: 'Portfolio made using React', tech: ["React"], link: "https://github.com/garrettwilloughby/garrettwilloughby.github.io.git" },
       { title: 'Scheduler', text: 'C++ Scheduler', tech: ["C++"], link: "https://github.com/garrettwilloughby/Interval-Scheduler.git" },
